@@ -1,0 +1,543 @@
+[
+  {
+  "scheme_name": "Rashtriya Uchchatar Shiksha Abhiyan (RUSA)",
+  "launch_year": 2013,
+  "description": "Rashtriya Uchchatar Shiksha Abhiyan (RUSA) is a centrally sponsored scheme launched in 2013 to provide strategic funding to eligible state higher educational institutions. The aim is to enhance access, equity, and quality in higher education by supporting universities and colleges through funding, infrastructure development, research promotion, faculty recruitment, and academic reforms. The scheme focuses on holistic development by improving institutional standards, ensuring accreditation, and addressing regional disparities in education.",
+  "funding_details": {
+    "general_category_states": "60:40",
+    "special_category_states": "90:10",
+    "union_territories": "100%"
+  },
+  "funding_process": "Flow from the central ministry through state governments/union territories to State Higher Education Councils and then to identified institutions.",
+  "objectives": [
+    "Improve the overall quality of state institutions by ensuring conformity to prescribed norms and standards.",
+    "Ensure accreditation as a mandatory quality assurance framework.",
+    "Usher transformative reforms in the state higher education system.",
+    "Ensure reforms in affiliation, academic, and examination systems.",
+    "Ensure adequate availability of quality faculty and capacity building.",
+    "Create an enabling atmosphere for research and innovation.",
+    "Expand institutional base by creating additional capacity in existing institutions and establishing new ones.",
+    "Correct regional imbalances in access to higher education by setting up institutions in unserved & underserved areas.",
+    "Improve equity by providing higher education opportunities to SC/STs, backward classes, women, minorities, and differently-abled persons."
+  ],
+  "primary_components": [
+    "Upgradation of existing autonomous colleges to Universities",
+    "Conversion of colleges to Cluster Universities",
+    "Infrastructure grants to Universities",
+    "New Model Colleges (General)",
+    "Upgradation of existing degree colleges to model colleges",
+    "New Colleges (Professional)",
+    "Infrastructure grants to colleges",
+    "Research, innovation, and quality improvement",
+    "Equity initiatives",
+    "Faculty Recruitment Support",
+    "Faculty improvements",
+    "Vocationalisation of Higher Education",
+    "Leadership Development of Educational Administrators",
+    "Institutional restructuring & reforms",
+    "Capacity building & preparation, data collection & planning"
+  ],
+  "subsumed_components": [
+    "Polytechnics (from existing central schemes)",
+    "Synergising vocational education with higher education"
+  ],
+  "eligibility_criteria": {
+    "state_institutions": "State higher educational institutions eligible for funding based on State Higher Education Plans and critical appraisal.",
+    "universities": "Both existing and newly established universities fulfilling criteria for quality improvement and infrastructure expansion.",
+    "colleges": "Degree and professional colleges meeting norms for upgrading to model institutions or receiving infrastructural support."
+  },
+  "implementation_agencies": [
+    "Ministry of Education, Government of India",
+    "State Governments",
+    "State Higher Education Councils",
+    "Accrediting Agencies (e.g., NAAC, NBA)"
+  ]
+  },
+
+  {
+  "scheme_name": "National Initiative for Design Innovation (NIDI)",
+  "launch_year": 2014,
+  "objectives": [
+    "To foster a culture of innovation and design in higher educational institutions.",
+    "To promote academic and research collaboration in the design field.",
+    "To set up design innovation hubs at educational institutions across the country.",
+    "To provide funding and support to innovative design ideas and projects.",
+    "To facilitate technology transfer, incubation, and commercialization of innovative designs.",
+    "To enhance the quality of design education and practice in India."
+  ],
+  "key_areas_of_focus": [
+    "Establishment of Design Innovation Hubs",
+    "Promoting innovation in design through competitions and research.",
+    "Industry-academia collaboration for design research.",
+    "Design for social impact and sustainable development.",
+    "Training and capacity building in design-related fields.",
+    "Incubation and support for startups in the design sector."
+  ],
+  "components": [
+    "Funding for research and design innovation projects.",
+    "Creation of centers of excellence in design education and research.",
+    "Collaboration with industry for design innovation.",
+    "Supporting startups and entrepreneurs in the design field.",
+    "Design competitions and challenges for students and professionals.",
+    "Workshops, seminars, and capacity building programs on design thinking and innovation."
+  ],
+  "beneficiaries": [
+    "Students and faculty in design-related disciplines.",
+    "Entrepreneurs and startups in the design sector.",
+    "Industry partners collaborating with academic institutions for design innovation."
+  ],
+  "funding_details": {
+    "central_funding": "Available for research projects, innovations, and capacity-building activities.",
+    "institutional_funding": "Funding provided to design hubs and educational institutions based on proposals and project outcomes."
+  },
+  "implementation_agencies": [
+    "Ministry of Human Resource Development (MHRD)",
+    "National Institute of Design (NID)",
+    "Other Higher Educational Institutions (HEIs)"
+  ],
+  "eligibility_criteria": {
+    "design_innovation_hubs": "Educational institutions that offer design-related courses or programs and are willing to set up a Design Innovation Hub.",
+    "faculty": "Faculty members with experience in design or related fields, looking to collaborate on research or innovative design projects.",
+    "students": "Students enrolled in design-related programs (undergraduate, postgraduate, or PhD) who want to participate in competitions, projects, or innovation activities.",
+    "startups": "Design-related startups looking for support, funding, and incubation for their innovative projects.",
+    "industry_partners": "Industry players willing to collaborate with academic institutions to foster design research and innovation."
+  }
+  },
+
+  {
+  "scheme_name": "National Research Professorship (NRP)",
+  "launch_year": 2000,
+  "objectives": [
+    "To promote excellence in research and teaching in universities and research institutions.",
+    "To attract highly talented researchers to work in the country and contribute to its scientific and technological development.",
+    "To provide academic leadership by appointing distinguished researchers to the post of National Research Professors.",
+    "To enhance the quality of higher education through the mentorship of young researchers and faculty members."
+  ],
+  "funding_details": {
+    "stipend": "The NRP receives a salary comparable to other senior academic positions, including research grants and additional allowances.",
+    "research_funding": "NRPs are provided with research funding to conduct their work in their respective fields."
+  },
+  "components": [
+    "Appointment of eminent researchers as National Research Professors.",
+    "Provision of facilities and research grants to NRPs.",
+    "Encouragement of collaboration between NRPs and academic institutions across India.",
+    "Promotion of mentorship programs where NRPs guide and support junior faculty and researchers."
+  ],
+  "eligibility_criteria": {
+    "academic_qualifications": "Candidates must have a distinguished career in research with significant contributions to their field.",
+    "age_limit": "Candidates must typically be senior researchers with an established track record in their area of expertise.",
+    "experience": "Candidates must have a demonstrated history of excellence in research and academic leadership."
+  },
+  "implementation_agencies": [
+    "Ministry of Education, Government of India",
+    "Indian Council of Historical Research (ICHR)",
+    "Other research funding agencies and academic institutions"
+  ],
+  "beneficiaries": [
+    "Eminent researchers who are appointed as National Research Professors.",
+    "Academic institutions and students benefiting from the leadership and mentorship of NRPs.",
+    "Research communities in the country who benefit from the increased quality and scope of research."
+  ]
+  },
+
+  {
+  "scheme_name": "Establishment of New Central Universities",
+  "launch_year": "2009",
+  "objectives": [
+    "To expand the access to higher education in the country.",
+    "To provide opportunities for students from underrepresented regions to access quality higher education.",
+    "To promote research and innovation in the country through new universities.",
+    "To create centers of academic excellence and cater to diverse educational needs."
+  ],
+  "funding_details": {
+    "central_funding": "The central government provides financial support for infrastructure development, research, faculty recruitment, and operational costs.",
+    "institutional_funding": "Additional funds are provided to universities to develop academic and non-academic infrastructure."
+  },
+  "components": [
+    "Establishment of new Central Universities in various parts of the country, especially in underserved areas.",
+    "Development of infrastructure, including classrooms, laboratories, and hostels.",
+    "Recruitment of qualified faculty and academic staff.",
+    "Establishment of academic programs in various disciplines, with a focus on research and innovation.",
+    "Development of research centers and innovation hubs within the universities."
+  ],
+  "eligibility_criteria": {
+    "location_criteria": "New Central Universities are set up in regions that are underserved or require more educational institutions.",
+    "state_government": "State governments need to identify the areas where new universities are needed and support the proposal for new institutions.",
+    "institutional_readiness": "Proposals are accepted from institutions with a plan to create a university that meets the required standards of quality and infrastructure."
+  },
+  "implementation_agencies": [
+    "Ministry of Education, Government of India",
+    "University Grants Commission (UGC)",
+    "State Governments (for land and local support)"
+  ],
+  "beneficiaries": [
+    "Students from underserved and underrepresented regions of India.",
+    "Academic communities benefiting from new research and educational opportunities.",
+    "Faculty and staff who are recruited to these new institutions.",
+    "Industry and society, benefiting from the research outputs and collaborations."
+  ]
+  },
+
+  {
+  "scheme_name": "Establishment of 14 World Class Central Universities",
+  "launch_year": "2016",
+  "objectives": [
+    "To develop world-class universities in India that can compete globally in research, innovation, and teaching.",
+    "To strengthen the higher education system by creating top-tier educational institutions that provide quality education and research.",
+    "To promote India's academic excellence in fields such as science, technology, humanities, and social sciences.",
+    "To attract international students and faculty by providing world-class infrastructure and academic opportunities."
+  ],
+  "funding_details": {
+    "central_funding": "The central government provides significant financial support for infrastructure, research, faculty recruitment, and operational costs.",
+    "institutional_funding": "Additional grants and funds are allocated for each university to create cutting-edge research facilities and academic programs."
+  },
+  "components": [
+    "Establishment of 14 new Central Universities with world-class infrastructure.",
+    "Recruitment of top-tier faculty and academic leaders from across the world.",
+    "Development of state-of-the-art research facilities and labs.",
+    "Introduction of interdisciplinary programs and global collaborations in education and research.",
+    "Implementation of international standards of education and accreditation systems."
+  ],
+  "eligibility_criteria": {
+    "location_criteria": "The new universities are to be established in strategic locations across India, ensuring regional balance and promoting access to world-class education.",
+    "institutional_readiness": "Proposals for these universities must outline plans for high standards of infrastructure, teaching, and research in line with international benchmarks."
+  },
+  "implementation_agencies": [
+    "Ministry of Education, Government of India",
+    "University Grants Commission (UGC)",
+    "State Governments (for land acquisition and local support)"
+  ],
+  "beneficiaries": [
+    "Students from India and abroad who will have access to world-class education.",
+    "Faculty and researchers who will be part of globally competitive academic environments.",
+    "Industry and society, benefiting from the research outcomes and collaborations with the universities."
+  ]
+  },
+
+  {
+  "scheme_name": "Setting up of 374 Degree Colleges in Educationally Backward Districts",
+  "launch_year": "2007",
+  "objectives": [
+    "To provide access to higher education in educationally backward districts of India.",
+    "To enhance the enrolment of students, especially from marginalized and underprivileged communities.",
+    "To ensure that quality higher education reaches areas with low literacy and education levels.",
+    "To promote economic development by increasing the educated workforce in underserved regions."
+  ],
+  "funding_details": {
+    "central_funding": "The central government provides financial support for infrastructure development, faculty recruitment, and operational costs.",
+    "state_governments": "State governments are responsible for providing land and local resources for the establishment of these colleges."
+  },
+  "components": [
+    "Establishment of 374 new degree colleges in educationally backward districts.",
+    "Development of infrastructure, including classrooms, libraries, and laboratories.",
+    "Recruitment of qualified faculty to ensure the quality of education.",
+    "Curriculum development and introduction of undergraduate degree programs.",
+    "Special focus on empowering women, SC/ST, and other marginalized groups through education."
+  ],
+  "eligibility_criteria": {
+    "location_criteria": "The new colleges will be set up in districts that have low literacy rates, limited access to higher education, and underserved populations.",
+    "state_governments": "State governments must identify the educationally backward districts and provide land and logistical support for setting up the colleges.",
+    "institutional_readiness": "Proposals from institutions must demonstrate the capability to set up and manage the infrastructure and educational programs as per the required standards."
+  },
+  "implementation_agencies": [
+    "Ministry of Education, Government of India",
+    "University Grants Commission (UGC)",
+    "State Governments (for land and local support)"
+  ],
+  "beneficiaries": [
+    "Students from educationally backward districts, especially those from economically disadvantaged backgrounds.",
+    "Women, SC/ST, and other marginalized groups who will have increased access to higher education.",
+    "The local community, which will benefit from a better-educated workforce and economic growth."
+  ]
+  },
+
+  {
+  "scheme_name": "Scheme for Incentivising State Governments for Expansion of Higher Education Institutions",
+  "launch_year": "2017",
+  "objectives": [
+    "To promote the expansion of higher education institutions in states, especially in regions with low access to quality education.",
+    "To encourage state governments to establish new higher education institutions and improve existing ones.",
+    "To enhance the access, quality, and infrastructure of higher education institutions across the country.",
+    "To address regional disparities in higher education access and infrastructure."
+  ],
+  "funding_details": {
+    "central_funding": "The central government provides funds to state governments as an incentive to expand and improve higher education institutions.",
+    "incentive_structure": "Funds are provided based on the establishment of new institutions or significant improvements in the existing ones, with emphasis on ensuring quality and inclusivity."
+  },
+  "components": [
+    "Funding for the establishment of new higher education institutions in underserved regions.",
+    "Grants for upgrading infrastructure in existing institutions.",
+    "Support for improving teaching standards, research facilities, and faculty recruitment.",
+    "Special focus on regions with low enrolment rates and educational backwardness.",
+    "Support for the creation of new academic programs to address local and national developmental needs."
+  ],
+  "eligibility_criteria": {
+    "state_governments": "State governments must submit proposals for the establishment or upgradation of higher education institutions, demonstrating the need for expansion in their respective regions.",
+    "institutional_requirements": "The institutions must meet the basic infrastructure, staffing, and academic requirements set by the Ministry of Education and the University Grants Commission (UGC)."
+  },
+  "implementation_agencies": [
+    "Ministry of Education, Government of India",
+    "University Grants Commission (UGC)",
+    "State Governments (for planning and implementing the expansion projects)"
+  ],
+  "beneficiaries": [
+    "Students from educationally backward districts who gain access to higher education opportunities.",
+    "Faculty and staff who will be employed at the newly established or improved institutions.",
+    "Local communities benefiting from enhanced educational infrastructure and opportunities."
+  ]
+  },
+
+  {
+  "scheme_name": "Central Sector Interest Subsidy Scheme, 2009 on Model Education Loan Scheme of IBA",
+  "launch_year": "2009",
+  "objectives": [
+    "To provide interest subsidy to students from economically weaker sections of society pursuing higher education.",
+    "To make higher education more accessible by easing the financial burden on students and their families.",
+    "To promote financial inclusion by encouraging students from low-income backgrounds to pursue higher education."
+  ],
+  "funding_details": {
+    "central_government_funding": "The central government bears the interest on the education loan during the moratorium period (course period plus one year or till the student gets a job, whichever is earlier).",
+    "interest_subsidy": "The subsidy covers the interest on education loans up to a certain limit, helping students manage loan repayments effectively after course completion."
+  },
+  "components": [
+    "Subsidy on the interest component of education loans during the moratorium period.",
+    "Support for loans availed by students pursuing undergraduate, postgraduate, or professional courses in recognized institutions.",
+    "Coverage for loans up to a specified amount as per the Model Education Loan Scheme of the Indian Banks’ Association (IBA)."
+  ],
+  "eligibility_criteria": {
+    "loan_availability": "The loan must be taken from a bank that is a member of the Indian Banks’ Association (IBA) under the Model Education Loan Scheme.",
+    "student_eligibility": "Students from economically weaker sections (up to a certain income level) are eligible for the subsidy.",
+    "institution_eligibility": "The loan should be for courses pursued in recognized institutions in India or abroad, as approved by the concerned authorities."
+  },
+  "implementation_agencies": [
+    "Ministry of Education, Government of India",
+    "Indian Banks’ Association (IBA)",
+    "Participating Banks"
+  ],
+  "beneficiaries": [
+    "Students from economically weaker sections of society pursuing higher education in recognized institutions.",
+    "Parents and guardians of students, who benefit from reduced financial burdens.",
+    "Banks, which receive support for the interest subsidy during the moratorium period."
+  ]
+  },
+
+  {
+  "scheme_name": "Construction of Girls' Hostels",
+  "launch_year": "2013",
+  "objectives": [
+    "To provide safe, secure, and affordable accommodation for female students pursuing higher education.",
+    "To increase access to higher education for women by addressing the issue of inadequate hostel facilities.",
+    "To promote gender equality in education by supporting female students in their academic journey."
+  ],
+  "funding_details": {
+    "central_funding": "The central government provides financial assistance for the construction of girls' hostels in educational institutions across the country.",
+    "funding_ratio": "The funding is typically provided on a 75:25 ratio, with the central government contributing 75% of the cost and the remaining 25% provided by the state government or institution."
+  },
+  "components": [
+    "Construction of new girls' hostels in educational institutions with inadequate accommodation for female students.",
+    "Renovation and upgrading of existing hostels to improve living conditions and ensure the safety and comfort of female students.",
+    "Provision of essential facilities such as Wi-Fi, recreational areas, security, and medical support in the hostels."
+  ],
+  "eligibility_criteria": {
+    "institution_eligibility": "The scheme is available for educational institutions that have a large number of female students but lack sufficient hostel facilities.",
+    "location_eligibility": "Hostels are primarily constructed in institutions located in remote or underserved areas where access to accommodation for women is limited."
+  },
+  "implementation_agencies": [
+    "Ministry of Education, Government of India",
+    "State Governments (for state-level projects)",
+    "Educational Institutions (responsible for hosting and managing the hostels)"
+  ],
+  "beneficiaries": [
+    "Female students, especially those from rural or economically disadvantaged backgrounds, who gain access to safe and affordable accommodation.",
+    "Educational institutions that can offer better facilities to female students, promoting higher enrolment and retention rates."
+  ]
+  },
+
+  {
+  "scheme_name": "Supporting Uncovered State Universities and Colleges",
+  "launch_year": "2013",
+  "objectives": [
+    "To provide financial and infrastructural support to state universities and colleges that are not yet covered under central schemes.",
+    "To enhance the quality of education and research facilities in state universities and colleges that lack sufficient resources.",
+    "To promote inclusivity and address regional disparities in higher education by providing targeted support to underfunded institutions."
+  ],
+  "funding_details": {
+    "central_government_funding": "The central government allocates funds to state governments for the development and improvement of uncovered state universities and colleges.",
+    "funding_ratio": "The funding is provided on a shared basis, with the central government contributing a major portion, and the state government or institutions contributing a smaller percentage for implementation."
+  },
+  "components": [
+    "Financial assistance for infrastructure development such as classrooms, libraries, and laboratories in uncovered state universities and colleges.",
+    "Provision of funds for improving teaching quality, faculty development, and research infrastructure.",
+    "Support for establishing new academic programs and upgrading existing ones in the uncovered institutions.",
+    "Capacity building programs to enhance governance and administration at the university and college level."
+  ],
+  "eligibility_criteria": {
+    "institution_eligibility": "State universities and colleges that have not been covered under any central government schemes for development or improvement.",
+    "location_eligibility": "Institutions located in regions with educational backwardness or areas facing a shortage of quality higher education facilities."
+  },
+  "implementation_agencies": [
+    "Ministry of Education, Government of India",
+    "State Governments (for planning and implementation)",
+    "University Grants Commission (UGC)"
+  ],
+  "beneficiaries": [
+    "State universities and colleges that receive support for infrastructure and academic improvements.",
+    "Students in uncovered institutions who benefit from improved facilities and enhanced educational opportunities.",
+    "Faculty and staff who gain better infrastructure and training for higher educational standards."
+  ]
+  },
+
+  {
+  "scheme_name": "Additional Assistance to About 160 Already Covered Universities and About 5500 Colleges",
+  "launch_year": "2013",
+  "objectives": [
+    "To provide additional financial support to approximately 160 already covered universities and 5500 colleges to enhance infrastructure, academic facilities, and research capabilities.",
+    "To upgrade existing educational institutions by providing targeted funding for improvements in teaching, learning, and governance systems.",
+    "To address the gaps in quality education and ensure better facilities for students and faculty in universities and colleges that are already part of previous schemes."
+  ],
+  "funding_details": {
+    "central_government_funding": "The central government allocates additional funds to universities and colleges that were previously covered under schemes like RUSA or other higher education initiatives.",
+    "funding_ratio": "The funding is typically provided on a 60:40 or 75:25 ratio, with the central government contributing the majority of the funds, depending on the type of institution and state."
+  },
+  "components": [
+    "Additional funding for infrastructure upgrades, including new classrooms, libraries, and laboratories.",
+    "Support for enhancing teaching quality through faculty development programs and academic training.",
+    "Funding for research facilities and innovation hubs to improve research output and student participation in academic projects.",
+    "Provision for technological enhancements such as smart classrooms, e-learning tools, and digital library systems.",
+    "Incentives for improving administrative and governance systems to promote better institutional management."
+  ],
+  "eligibility_criteria": {
+    "institution_eligibility": "Universities and colleges that are already covered under previous central funding schemes but require additional financial assistance to further improve their infrastructure and academic standards.",
+    "location_eligibility": "Institutions from all regions, with a focus on those that have shown progress under initial funding but still need additional resources to address specific needs."
+  },
+  "implementation_agencies": [
+    "Ministry of Education, Government of India",
+    "State Governments (for localized implementation and management)",
+    "University Grants Commission (UGC)"
+  ],
+  "beneficiaries": [
+    "Approximately 160 already covered universities and 5500 colleges that receive targeted funding for upgrades and improvements.",
+    "Students in these institutions who benefit from enhanced facilities, improved quality of education, and better research opportunities.",
+    "Faculty members who gain access to advanced teaching methods, research funding, and development programs.",
+    "Educational administrators who benefit from improved institutional governance and management systems."
+  ]
+  },
+
+  {
+  "scheme_name": "Strengthening Science-Based Higher Education and Research in Universities",
+  "launch_year": "2013",
+  "objectives": [
+    "To enhance the quality of science-based education and research in universities across India.",
+    "To provide necessary infrastructure, facilities, and financial support to universities for strengthening research and development (R&D) activities.",
+    "To promote interdisciplinary scientific research and innovation in science, technology, engineering, and mathematics (STEM) fields.",
+    "To increase the participation of universities in global scientific research and foster collaborations with national and international research bodies."
+  ],
+  "funding_details": {
+    "central_government_funding": "The central government allocates funds to universities for the enhancement of scientific research facilities, infrastructure, and the development of science-based programs.",
+    "funding_ratio": "The funding is typically provided on a 60:40 ratio, with the central government contributing the larger portion, and the institution or state government covering the remainder."
+  },
+  "components": [
+    "Financial assistance for setting up or upgrading science laboratories and research facilities in universities.",
+    "Support for research projects and innovations in fields such as biotechnology, environmental science, physics, chemistry, and engineering.",
+    "Provision of funding for capacity-building programs, faculty development, and advanced training in scientific research.",
+    "Enhancement of university-industry collaborations for practical and applied research.",
+    "Support for conducting science-based workshops, seminars, and conferences to foster knowledge exchange and networking within the scientific community."
+  ],
+  "eligibility_criteria": {
+    "institution_eligibility": "State and central universities offering science-based programs in disciplines like engineering, technology, natural sciences, and social sciences.",
+    "location_eligibility": "Universities located across all regions, especially those with a strong focus on science and research, and those working to improve their research infrastructure."
+  },
+  "implementation_agencies": [
+    "Ministry of Education, Government of India",
+    "Department of Science and Technology (DST)",
+    "University Grants Commission (UGC)"
+  ],
+  "beneficiaries": [
+    "Universities that receive support for enhancing their science-based programs and research capabilities.",
+    "Students who benefit from improved science education, better research opportunities, and exposure to cutting-edge technologies.",
+    "Faculty members who gain access to advanced research facilities, professional development programs, and national and international collaboration opportunities.",
+    "The broader scientific community that benefits from the improved quality and quantity of scientific research output."
+  ]
+  },
+
+  {
+  "scheme_name": "Inter Universities Research Institute for Policy and Evaluation",
+  "launch_year": "2013",
+  "objectives": [
+    "To establish a dedicated research institute aimed at conducting policy research and evaluation to improve higher education policies across the country.",
+    "To promote evidence-based decision-making by evaluating the effectiveness of existing higher education policies and programs.",
+    "To foster collaboration between universities for conducting interdisciplinary research on policy issues and educational reforms.",
+    "To contribute to the development of new policies that address emerging challenges in higher education and ensure greater inclusion, quality, and access."
+  ],
+  "funding_details": {
+    "central_government_funding": "The central government allocates funding for the establishment and operation of the Inter Universities Research Institute, focusing on research projects and evaluation of higher education policies.",
+    "funding_ratio": "The funding is provided entirely by the central government or through a combination of government funds and university contributions."
+  },
+  "components": [
+    "Establishment of a research institute that focuses on higher education policy analysis and evaluation.",
+    "Funding for interdisciplinary research projects that evaluate the effectiveness of higher education programs and policies.",
+    "Collaboration with various universities and educational institutions for joint research and policy evaluation activities.",
+    "Organizing workshops, seminars, and conferences to disseminate research findings and engage policymakers, educators, and other stakeholders.",
+    "Developing frameworks for assessing the impact of education policies on access, quality, and inclusivity."
+  ],
+  "eligibility_criteria": {
+    "institution_eligibility": "Universities and research organizations that can contribute to policy research and evaluation, either individually or through collaborative initiatives.",
+    "location_eligibility": "Institutions across India with a focus on research in education policy, governance, and related fields."
+  },
+  "implementation_agencies": [
+    "Ministry of Education, Government of India",
+    "University Grants Commission (UGC)",
+    "National Board of Accreditation (NBA)"
+  ],
+  "beneficiaries": [
+    "Higher education institutions that can access research and policy evaluation findings to improve their own practices and outcomes.",
+    "Policymakers and education administrators who can use research outcomes to shape effective education policies and reforms.",
+    "Students and faculty members who benefit from improved policies and practices in the higher education system.",
+    "The broader society that gains from better educational policies that ensure equitable and quality higher education for all."
+  ]
+  },
+
+  {
+  "scheme_name": "Schemes Implemented through Autonomous Organisations",
+  "launch_year": "Varies by scheme",
+  "overview": "The schemes implemented through autonomous organizations aim to promote specialized initiatives in sectors such as higher education, research, innovation, and skill development, with the involvement of agencies that are independent but aligned with the government’s broader policy goals.",
+  "objectives": [
+    "To provide targeted assistance for various educational, research, and innovation projects through specialized autonomous bodies.",
+    "To enhance the capacity of autonomous organizations to manage and implement schemes in a focused and effective manner.",
+    "To ensure timely and efficient execution of programs by delegating implementation to agencies with domain expertise and operational independence.",
+    "To promote innovation, research, and capacity-building through autonomous bodies with specific mandates."
+  ],
+  "funding_details": {
+    "central_government_funding": "The central government allocates funds to autonomous organizations for the successful implementation of their schemes, based on the needs and goals of the respective programs.",
+    "funding_ratio": "The funding ratio varies by scheme and the organization involved. In many cases, the central government provides a majority share, but some schemes also involve co-funding from state governments or private sectors."
+  },
+  "components": [
+    "Financial assistance to research institutes, universities, and academic bodies for projects in specialized fields.",
+    "Support for the creation and enhancement of infrastructure in research, technology, and skill development centers.",
+    "Capacity-building initiatives to train and empower individuals in high-demand sectors such as technology, engineering, and innovation.",
+    "Promotion of collaborative research initiatives between autonomous organizations, academic institutions, and industry partners.",
+    "Monitoring and evaluation of outcomes to ensure the effectiveness of the schemes being implemented."
+  ],
+  "eligible_organizations": [
+    "Autonomous organizations under the Ministry of Education, such as the University Grants Commission (UGC), All India Council for Technical Education (AICTE), and National Board of Accreditation (NBA).",
+    "Research organizations and institutes like the Indian Council of Agricultural Research (ICAR), Indian Council of Medical Research (ICMR), and Department of Science and Technology (DST).",
+    "Skills and training institutions like the National Skill Development Corporation (NSDC) and Sector Skill Councils."
+  ],
+  "implementation_agencies": [
+    "Ministry of Education, Government of India",
+    "University Grants Commission (UGC)",
+    "All India Council for Technical Education (AICTE)",
+    "National Board of Accreditation (NBA)",
+    "Indian Council of Agricultural Research (ICAR)",
+    "Indian Council of Medical Research (ICMR)",
+    "Department of Science and Technology (DST)",
+    "National Skill Development Corporation (NSDC)"
+  ],
+  "beneficiaries": [
+    "Universities and colleges that benefit from specialized support for education, infrastructure, and faculty development.",
+    "Research organizations and institutions that receive funding for advancing research and technological innovations.",
+    "Students and professionals who gain from enhanced educational opportunities, industry partnerships, and skill development programs.",
+    "The broader economy and society that benefit from the successful outcomes of research and innovation promoted by autonomous organizations."
+  ]
+  }
+]

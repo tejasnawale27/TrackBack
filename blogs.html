@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch JSON Data</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</head>
+<body>
+ <!-- Navbar -->
+       
+       <nav class="navbar3">
+        <div id="google_translate_element"></div>
+        <div class="navbar-right">
+            <a href="index.html" class="btn">Home</a>
+            <a href="index.html" class="btn">Streams</a>
+            <a href="index.html" class="btn">Mentorship</a>
+            <a href="blogs.html" class="active">Blogs</a>
+            <a href="tp.html" class="btn">Scholarships</a>
+            <a href="chatbot.html" class="btn">Chatbot</a>
+            <a href="t2.html" class="btn">Personalized</a>
+           
+        </div>
+    </nav>
+<br><br>
+
+<div class="sec1">
+<div class="section-container" id="jobSection">
+<div class="head">
+    <h1 class="headingrr">Trending Jobs !!</h1>
+    <hr class="head-un">
+  </div>
+  <br>
+
+    <div id="jobContainer"  class="flex2"></div>
+    
+    </div>
+</div>
+
+<div class="sec1">
+<div class="section-container2" id="jobSection2">
+<div class="head">
+    <h1 class="headingrr">Recommended Videos - Must watch</h1>
+    <hr class="head-un">
+  </div>
+  <br>
+
+  <iframe width="360" height="200" src="https://www.youtube.com/embed/CPAhCOMhJds?si=ZhJcPeplNUABNqmA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  <iframe width="360" height="200" src="https://www.youtube.com/embed/O3m14PVOq_g?si=Cm4sCrfMPre1UxoE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+  <iframe width="360" height="200" src="https://www.youtube.com/embed/YWVxasaOnNs?si=X8IlmUmmT1SGGYhe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  <iframe width="360" height="200" src="https://www.youtube.com/embed/-KNIjviJXNU?si=ld8rxK2hN6D6qWJS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  
+</div>
+
+
+
+    <script>
+       const jobsJSON = `{
+  "trending_jobs": [
+    {
+      "title": "Artificial Intelligence (AI) Engineer",
+      "description": "Develops algorithms and models to simulate human intelligence.",
+      "skills_required": ["Machine Learning", "Python", "Data Science"],
+      "average_salary_in_india": "₹12–20 LPA"
+    },
+    {
+      "title": "Data Scientist",
+      "description": "Analyzes large datasets to extract meaningful insights.",
+      "skills_required": ["Data Mining", "Python", "Big Data"],
+      "average_salary_in_india": "₹10–18 LPA"
+    },
+    {
+      "title": "Cybersecurity Specialist",
+      "description": "Protects systems from cyber threats and ensures security.",
+      "skills_required": ["Ethical Hacking", "Network Security", "Encryption"],
+      "average_salary_in_india": "₹8–15 LPA"
+    },
+    {
+      "title": "Cloud Engineer",
+      "description": "Manages cloud computing systems for security and efficiency.",
+      "skills_required": ["AWS", "DevOps", "Docker"],
+      "average_salary_in_india": "₹9–16 LPA"
+    },
+    {
+      "title": "Blockchain Developer",
+      "description": "Develops decentralized applications and smart contracts for secure transactions.",
+      "skills_required": ["Ethereum", "Hyperledger", "Smart Contracts", "Solidity"],
+      "average_salary_in_india": "₹8–14 LPA"
+    },
+    {
+      "title": "DevOps Engineer",
+      "description": "Automates software development workflows and infrastructure management.",
+      "skills_required": ["CI/CD", "Jenkins", "Docker", "Kubernetes"],
+      "average_salary_in_india": "₹7–15 LPA"
+    },
+    {
+      "title": "Full-Stack Developer",
+      "description": "Builds both front-end and back-end parts of web applications.",
+      "skills_required": ["HTML", "CSS", "JavaScript", "React", "Node.js"],
+      "average_salary_in_india": "₹6–12 LPA"
+    },
+    {
+      "title": "Internet of Things (IoT) Developer",
+      "description": "Designs and implements IoT solutions for smart devices.",
+      "skills_required": ["Embedded Systems", "MQTT", "Raspberry Pi", "Sensor Integration"],
+      "average_salary_in_india": "₹7–13 LPA"
+    },
+    {
+      "title": "Mobile Application Developer",
+      "description": "Develops and maintains mobile applications for Android and iOS.",
+      "skills_required": ["Swift", "Kotlin", "Flutter", "React Native"],
+      "average_salary_in_india": "₹5–10 LPA"
+    },
+    {
+      "title": "IT Project Manager",
+      "description": "Leads IT projects from planning to execution while managing teams and resources.",
+      "skills_required": ["Agile", "Scrum", "Risk Management", "PMP Certification"],
+      "average_salary_in_india": "₹10–18 LPA"
+    },
+    {
+      "title": "UX/UI Designer",
+      "description": "Creates user-friendly and visually appealing interfaces for digital products.",
+      "skills_required": ["Figma", "Adobe XD", "User Research", "Wireframing"],
+      "average_salary_in_india": "₹5–12 LPA"
+    },
+    {
+      "title": "Product Manager",
+      "description": "Oversees the development and launch of products, ensuring they meet customer needs.",
+      "skills_required": ["Market Research", "Agile Methodology", "Business Strategy"],
+      "average_salary_in_india": "₹12–20 LPA"
+    },
+    {
+      "title": "Machine Learning Engineer",
+      "description": "Develops machine learning models and AI-driven solutions.",
+      "skills_required": ["Python", "TensorFlow", "Scikit-Learn", "Deep Learning"],
+      "average_salary_in_india": "₹10–18 LPA"
+    },
+    {
+      "title": "Software Engineer",
+      "description": "Develops, tests, and maintains software applications and systems.",
+      "skills_required": ["Java", "C++", "Python", "Software Architecture"],
+      "average_salary_in_india": "₹6–14 LPA"
+    },
+    {
+      "title": "Big Data Engineer",
+      "description": "Designs and manages large-scale data processing and analytics systems.",
+      "skills_required": ["Hadoop", "Spark", "Kafka", "SQL"],
+      "average_salary_in_india": "₹9–16 LPA"
+    }
+  ]
+}`;
+
+const jobData = JSON.parse(jobsJSON);
+        const jobContainer = document.getElementById("jobContainer");
+
+        jobData.trending_jobs.forEach(job => {
+            const jobCard = document.createElement("div");
+            jobCard.classList.add("card3");
+
+            jobCard.innerHTML = `
+                <div class="flex">
+                    <div class="card-title">${job.title}</div>
+                </div>
+                <div class="card-content3">${job.description}</div>
+                <div class="card-content2"><strong>Skills:</strong> ${job.skills_required.join(", ")}</div>
+                <div class="button2">Avg Salary: ${job.average_salary_in_india}/-</div>
+            `;
+
+            jobContainer.appendChild(jobCard);
+        });
+
+        const jobSection = document.getElementById("jobSection");
+
+        jobSection.addEventListener("click", function () {
+            jobSection.classList.toggle("fullscreen");
+        });
+        const jobSection2 = document.getElementById("jobSection2");
+
+        jobSection2.addEventListener("click", function () {
+            jobSection2.classList.toggle("fullscreen");
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,139 @@
+{
+    "commerce": [
+        {
+            "profession_title": "Accountant",
+            "course_fee": 8000,
+            "eligibility_criteria": "10th Pass",
+            "course_duration": "3 years",
+            "information": "Accountants manage financial records and prepare financial statements.",
+            "future_mastery": "Chartered Accountancy (CA), MBA in Finance",
+            "rate": 15
+        },
+        {
+            "profession_title": "Investment Banker",
+            "course_fee": 20000,
+            "eligibility_criteria": "10th Pass with Commerce",
+            "course_duration": "3-5 years",
+            "information": "Investment bankers help companies raise capital and provide financial advice.",
+            "future_mastery": "MBA in Finance",
+            "rate": 14
+        },
+        {
+            "profession_title": "Chartered Accountant (CA)",
+            "course_fee": 25000,
+            "eligibility_criteria": "10th Pass with Commerce",
+            "course_duration": "5 years",
+            "information": "CAs specialize in accounting, auditing, and taxation.",
+            "future_mastery": "Fellow Chartered Accountant (FCA)",
+            "rate": 13
+        },
+        {
+            "profession_title": "Financial Analyst",
+            "course_fee": 18000,
+            "eligibility_criteria": "10th Pass with Commerce",
+            "course_duration": "3-4 years",
+            "information": "Financial analysts assess financial data to help decision-making.",
+            "future_mastery": "CFA (Chartered Financial Analyst)",
+            "rate": 12
+        },
+        {
+            "profession_title": "Stock Broker",
+            "course_fee": 15000,
+            "eligibility_criteria": "10th Pass with Commerce",
+            "course_duration": "2-3 years",
+            "information": "Stock brokers buy and sell securities for clients.",
+            "future_mastery": "Advanced Certification in Stock Trading",
+            "rate": 11
+        },
+        {
+            "profession_title": "Company Secretary (CS)",
+            "course_fee": 22000,
+            "eligibility_criteria": "10th Pass with Commerce",
+            "course_duration": "3-4 years",
+            "information": "CS professionals ensure a company's compliance with legal standards.",
+            "future_mastery": "Fellow Company Secretary (FCS)",
+            "rate": 10
+        },
+        {
+            "profession_title": "Business Analyst",
+            "course_fee": 20000,
+            "eligibility_criteria": "10th Pass with Commerce",
+            "course_duration": "3-4 years",
+            "information": "Business analysts improve business processes through data analysis.",
+            "future_mastery": "MBA in Business Analytics",
+            "rate": 9
+        },
+        {
+            "profession_title": "Entrepreneur",
+            "course_fee": 15000,
+            "eligibility_criteria": "10th Pass with Commerce",
+            "course_duration": "Varies",
+            "information": "Entrepreneurs start and manage their own businesses.",
+            "future_mastery": "Executive MBA, Startup Accelerator Programs",
+            "rate": 8
+        },
+        {
+            "profession_title": "Tax Consultant",
+            "course_fee": 14000,
+            "eligibility_criteria": "10th Pass with Commerce",
+            "course_duration": "2-3 years",
+            "information": "Tax consultants advise on tax planning and compliance.",
+            "future_mastery": "Advanced Diploma in Taxation",
+            "rate": 7
+        },
+        {
+            "profession_title": "Cost Accountant",
+            "course_fee": 16000,
+            "eligibility_criteria": "10th Pass with Commerce",
+            "course_duration": "3-4 years",
+            "information": "Cost accountants specialize in cost analysis and budgeting.",
+            "future_mastery": "Fellow Cost Accountant (FCA)",
+            "rate": 6
+        },
+        {
+            "profession_title": "E-commerce Specialist",
+            "course_fee": 15000,
+            "eligibility_criteria": "10th Pass with Commerce",
+            "course_duration": "2-3 years",
+            "information": "E-commerce specialists manage online business platforms.",
+            "future_mastery": "Digital Marketing, E-commerce Management",
+            "rate": 5
+        },
+        {
+            "profession_title": "Banking Officer",
+            "course_fee": 12000,
+            "eligibility_criteria": "10th Pass with Commerce",
+            "course_duration": "2-3 years",
+            "information": "Banking officers manage daily banking operations.",
+            "future_mastery": "MBA in Banking and Finance",
+            "rate": 4
+        },
+        {
+            "profession_title": "Retail Manager",
+            "course_fee": 10000,
+            "eligibility_criteria": "10th Pass with Commerce",
+            "course_duration": "2-3 years",
+            "information": "Retail managers oversee operations and sales in retail stores.",
+            "future_mastery": "MBA in Retail Management",
+            "rate": 3
+        },
+        {
+            "profession_title": "Marketing Manager",
+            "course_fee": 14000,
+            "eligibility_criteria": "10th Pass with Commerce",
+            "course_duration": "3-4 years",
+            "information": "Marketing managers develop and execute marketing strategies.",
+            "future_mastery": "MBA in Marketing",
+            "rate": 2
+        },
+        {
+            "profession_title": "Logistics Manager",
+            "course_fee": 11000,
+            "eligibility_criteria": "10th Pass with Commerce",
+            "course_duration": "3 years",
+            "information": "Logistics managers oversee supply chain and distribution systems.",
+            "future_mastery": "M.B.A. in Logistics and Supply Chain Management",
+            "rate": 1
+        }
+    ]
+}

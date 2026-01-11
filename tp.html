@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Higher Education Schemes</title>
+
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #06224c;
+        }
+        .scheme-list {
+            margin: 20px 0;
+        }
+        .scheme-list a {
+            display: block;
+            padding: 10px;
+            margin: 5px 0;
+            background-color: #f0f0f0;
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        .scheme-list a:hover {
+            background-color: #06224c;
+            color: white;
+        }
+        .scheme-details {
+            margin-top: 20px;
+        }
+        .scheme-title {
+            font-size: 20px;
+            color: #333;
+        }
+        .scheme-description {
+            margin-top: 10px;
+        }
+        .section-title {
+            font-size: 18px;
+            color: #555;
+            margin-top: 20px;
+        }
+
+        .flex{
+            display:flex;
+            
+        }
+        .scheme-item {
+            margin-bottom: 10px;
+            position: relative;
+            display: inline-block; /* keeps width as per content */
+            width: auto;
+        }
+
+        .scheme-link {
+            display: inline-block;
+            width: 250px;   /* fixed or let content decide */
+            text-align: left;
+            background: #f0f0f0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .scheme-details {
+            display: none;
+            margin-top: 5px;
+            background: #fff;
+            border: 1px solid #ccc;
+            padding: 8px;
+            border-radius: 5px;
+            width: 100%;  /* will take same width as .scheme-link */
+            box-sizing: border-box;
+        }
+
+    </style>
+</head>
+<body>
+          <!-- Navbar -->
+          <nav class="navbar3">
+            <div id="google_translate_element"></div>
+            <div class="navbar-right">
+                <a href="index.html" class="btn">Home</a>
+                <a href="index.html" class="btn">Streams</a>
+                <a href="index.html" class="btn">Mentorship</a>
+                <a href="blogs.html" class="btn">Blogs</a>
+                <a href="tp.html" class="active">Scholarships</a>
+                <a href="chatbot.html" class="btn">Chatbot</a>
+                <a href="t2.html" class="btn">Personalized</a>
+               
+            </div>
+        </nav>
+
+    <button onclick="window.location.href='index.html'" class="btn active">Go Back</button>&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <h1>Higher Education Schemes in India</h1>
+    <div class="flex">
+
+    <div class="scheme-list" id="scheme-list"></div>
+
+    <div id="scheme-details" class="scheme-details"></div>
+</div>
+        <script>
+        fetch('data.json')
+            .then(response => response.json())
+            .then(data => {
+                const schemeListContainer = document.getElementById('scheme-list');
+
+                data.forEach((scheme) => {
+                    const wrapper = document.createElement('div');
+                    wrapper.classList.add('scheme-item');
+
+                    const schemeLink = document.createElement('a');
+                    schemeLink.href = "javascript:void(0)";
+                    schemeLink.classList.add('scheme-link');
+                    schemeLink.textContent = scheme.scheme_name;
+
+                    const detailsDiv = document.createElement('div');
+                    detailsDiv.classList.add('scheme-details');
+                    detailsDiv.innerHTML = `
+                        <div class="scheme-title">${scheme.scheme_name}</div>
+                        <div class="scheme-description">${scheme.description}</div>
+                    `;
+
+                    schemeLink.addEventListener("click", () => {
+                        // collapse all
+                        document.querySelectorAll('.scheme-details').forEach(div => {
+                            div.style.display = "none";
+                        });
+
+                        // expand this one
+                        detailsDiv.style.display = "block";
+                    });
+
+                    wrapper.appendChild(schemeLink);
+                    wrapper.appendChild(detailsDiv);
+                    schemeListContainer.appendChild(wrapper);
+                });
+            })
+            .catch(error => console.error('Error loading scheme data:', error));
+    </script>
+
+
+
+</body>
+</html>

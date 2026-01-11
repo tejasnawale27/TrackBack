@@ -1,0 +1,139 @@
+{
+    "arts": [
+        {
+            "profession_title": "Author",
+            "course_fee": 4000,
+            "eligibility_criteria": "10th Pass",
+            "course_duration": "3 years",
+            "information": "Authors create written works, including books, articles, and scripts.",
+            "future_mastery": "M.A. in Literature, Creative Writing, or Journalism",
+            "rate": 15
+        },
+        {
+            "profession_title": "Graphic Designer",
+            "course_fee": 5000,
+            "eligibility_criteria": "10th Pass",
+            "course_duration": "1-2 years",
+            "information": "Graphic designers create visual content using tools like Adobe Photoshop and Illustrator.",
+            "future_mastery": "Advanced Multimedia Design, UX/UI Design",
+            "rate": 14
+        },
+        {
+            "profession_title": "Historian",
+            "course_fee": 7000,
+            "eligibility_criteria": "10th Pass",
+            "course_duration": "3 years",
+            "information": "Historians research and interpret historical events.",
+            "future_mastery": "M.A. in History, Ph.D. in History",
+            "rate": 13
+        },
+        {
+            "profession_title": "Social Worker",
+            "course_fee": 3000,
+            "eligibility_criteria": "10th Pass",
+            "course_duration": "2-3 years",
+            "information": "Social workers help individuals and communities with various challenges.",
+            "future_mastery": "M.S.W. (Master of Social Work)",
+            "rate": 12
+        },
+        {
+            "profession_title": "Journalist",
+            "course_fee": 6000,
+            "eligibility_criteria": "10th Pass",
+            "course_duration": "3 years",
+            "information": "Journalists gather and report news and stories to the public.",
+            "future_mastery": "M.A. in Journalism, Media Studies",
+            "rate": 11
+        },
+        {
+            "profession_title": "Teacher",
+            "course_fee": 4000,
+            "eligibility_criteria": "10th Pass",
+            "course_duration": "2-3 years",
+            "information": "Teachers educate students in schools and colleges.",
+            "future_mastery": "B.Ed., M.Ed.",
+            "rate": 10
+        },
+        {
+            "profession_title": "Event Manager",
+            "course_fee": 8000,
+            "eligibility_criteria": "10th Pass",
+            "course_duration": "2 years",
+            "information": "Event managers organize and plan events and ceremonies.",
+            "future_mastery": "Diploma in Event Management, MBA in Event Management",
+            "rate": 9
+        },
+        {
+            "profession_title": "Film Director",
+            "course_fee": 20000,
+            "eligibility_criteria": "10th Pass",
+            "course_duration": "3-4 years",
+            "information": "Film directors oversee the creative aspects of film production.",
+            "future_mastery": "Diploma in Film Making, M.F.A. in Film Direction",
+            "rate": 8
+        },
+        {
+            "profession_title": "Actor",
+            "course_fee": 15000,
+            "eligibility_criteria": "10th Pass",
+            "course_duration": "2 years",
+            "information": "Actors perform roles in movies, theater, or TV shows.",
+            "future_mastery": "Advanced Acting Diploma, Film Academy Certification",
+            "rate": 7
+        },
+        {
+            "profession_title": "Fashion Designer",
+            "course_fee": 12000,
+            "eligibility_criteria": "10th Pass",
+            "course_duration": "3 years",
+            "information": "Fashion designers create clothing and accessories.",
+            "future_mastery": "M.F.D. (Master of Fashion Design), Advanced Textile Design",
+            "rate": 6
+        },
+        {
+            "profession_title": "Photographer",
+            "course_fee": 7000,
+            "eligibility_criteria": "10th Pass",
+            "course_duration": "1-2 years",
+            "information": "Photographers capture images for artistic, commercial, or journalistic purposes.",
+            "future_mastery": "Advanced Photography, Master in Digital Photography",
+            "rate": 5
+        },
+        {
+            "profession_title": "Interior Designer",
+            "course_fee": 10000,
+            "eligibility_criteria": "10th Pass",
+            "course_duration": "2-3 years",
+            "information": "Interior designers plan and design interior spaces for residential and commercial buildings.",
+            "future_mastery": "Diploma in Interior Design, M.A. in Interior Architecture",
+            "rate": 4
+        },
+        {
+            "profession_title": "Music Composer",
+            "course_fee": 12000,
+            "eligibility_criteria": "10th Pass",
+            "course_duration": "2-3 years",
+            "information": "Music composers create original pieces of music for various media.",
+            "future_mastery": "B.Mus., Advanced Composition Techniques",
+            "rate": 3
+        },
+        {
+            "profession_title": "Choreographer",
+            "course_fee": 8000,
+            "eligibility_criteria": "10th Pass",
+            "course_duration": "2 years",
+            "information": "Choreographers design and direct dance routines.",
+            "future_mastery": "Diploma in Dance, M.A. in Dance Choreography",
+            "rate": 2
+        },
+        {
+            "profession_title": "Public Relations Specialist",
+            "course_fee": 6000,
+            "eligibility_criteria": "10th Pass",
+            "course_duration": "1-2 years",
+            "information": "Public Relations specialists manage a company's public image and communication.",
+            "future_mastery": "Diploma in Public Relations, M.A. in Communication",
+            "rate": 1
+        }
+    ]
+}

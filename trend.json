@@ -1,0 +1,115 @@
+{
+    "trending_jobs": [
+      {
+        "title": "Artificial Intelligence (AI) Engineer",
+        "description": "Develops algorithms and models to simulate human intelligence, enhancing productivity and innovation across various sectors.",
+        "skills_required": [
+          "Machine Learning",
+          "Programming (Python, R, Java)",
+          "Data Science and Analytics",
+          "Knowledge of AI frameworks (TensorFlow, PyTorch)"
+        ],
+        "average_salary_in_india": "₹12–20 LPA"
+      },
+      {
+        "title": "Data Scientist",
+        "description": "Analyzes large datasets to extract meaningful insights, aiding businesses in decision-making and strategy formulation.",
+        "skills_required": [
+          "Data Mining and Visualization",
+          "Statistical Analysis",
+          "Programming (Python, R, SQL)",
+          "Familiarity with Big Data tools (Hadoop, Spark)"
+        ],
+        "average_salary_in_india": "₹10–18 LPA"
+      },
+      {
+        "title": "Cybersecurity Specialist",
+        "description": "Protects systems and data from cyber threats by implementing security measures and responding to incidents.",
+        "skills_required": [
+          "Ethical Hacking",
+          "Network Security",
+          "Incident Response",
+          "Knowledge of firewalls, antivirus, and encryption"
+        ],
+        "average_salary_in_india": "₹8–15 LPA"
+      },
+      {
+        "title": "Cloud Engineer",
+        "description": "Designs, manages, and optimizes cloud computing systems to ensure efficient and secure operations.",
+        "skills_required": [
+          "Proficiency with cloud platforms (AWS, Azure, Google Cloud)",
+          "DevOps and automation",
+          "Containerization (Kubernetes, Docker)",
+          "Cloud security best practices"
+        ],
+        "average_salary_in_india": "₹9–16 LPA"
+      },
+      {
+        "title": "Blockchain Developer",
+        "description": "Creates decentralized applications and smart contracts, ensuring secure and transparent digital transactions.",
+        "skills_required": [
+          "Understanding of blockchain frameworks (Ethereum, Hyperledger)",
+          "Cryptography",
+          "Smart Contract development (Solidity)",
+          "Consensus algorithms"
+        ],
+        "average_salary_in_india": "₹8–14 LPA"
+      },
+      {
+        "title": "DevOps Engineer",
+        "description": "Bridges the gap between development and operations by automating workflows and enhancing software release cycles.",
+        "skills_required": [
+          "Continuous Integration/Continuous Deployment (CI/CD) tools (Jenkins, GitLab)",
+          "Scripting (Bash, Python)",
+          "Monitoring tools (Nagios, Prometheus)",
+          "Agile methodologies"
+        ],
+        "average_salary_in_india": "₹7–15 LPA"
+      },
+      {
+        "title": "Full-Stack Developer",
+        "description": "Handles both front-end and back-end development to build comprehensive web applications.",
+        "skills_required": [
+          "Front-end technologies (HTML, CSS, JavaScript frameworks like React, Angular)",
+          "Back-end technologies (Node.js, Django, Ruby on Rails)",
+          "Database management (SQL, NoSQL)",
+          "API integration"
+        ],
+        "average_salary_in_india": "₹6–12 LPA"
+      },
+      {
+        "title": "Internet of Things (IoT) Developer",
+        "description": "Designs and implements solutions for smart devices, enabling automation and real-time data collection.",
+        "skills_required": [
+          "Embedded systems",
+          "IoT protocols (MQTT, CoAP)",
+          "Microcontrollers (Arduino, Raspberry Pi)",
+          "Sensor integration"
+        ],
+        "average_salary_in_india": "₹7–13 LPA"
+      },
+      {
+        "title": "Mobile Application Developer",
+        "description": "Creates applications for mobile devices, ensuring seamless user experiences across platforms.",
+        "skills_required": [
+          "Android development (Kotlin, Java)",
+          "iOS development (Swift)",
+          "Cross-platform frameworks (Flutter, React Native)",
+          "UI/UX design principles"
+        ],
+        "average_salary_in_india": "₹5–10 LPA"
+      },
+      {
+        "title": "IT Project Manager",
+        "description": "Oversees the planning, execution, and completion of IT projects, ensuring they meet deadlines and budgets.",
+        "skills_required": [
+          "Project management methodologies (Agile, Scrum, PMP)",
+          "Risk management",
+          "Strong communication skills",
+          "Budgeting and scheduling"
+        ],
+        "average_salary_in_india": "₹10–18 LPA"
+      }
+    ]
+  }
+  

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scheme Details</title>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #0c0a8d;
+        }
+        .scheme-details {
+            margin-top: 20px;
+        }
+        .scheme-title {
+            font-size: 20px;
+            color: #333;
+        }
+        .scheme-description {
+            margin-top: 10px;
+        }
+        .section-title {
+            font-size: 18px;
+            color: #555;
+            margin-top: 20px;
+        }
+
+
+    </style>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script src="script.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+          <!-- Navbar -->
+          <nav class="navbar3">
+            <div id="google_translate_element"></div>
+            <div class="navbar-right">
+                <a href="index.html" class="btn">Home</a>
+                <a href="index.html" class="btn">Streams</a>
+                <a href="index.html" class="btn">Mentorship</a>
+                <a href="blogs.html" class="btn">Blogs</a>
+                <a href="tp.html" class="active">Scholarships</a>
+                <a href="chatbot.html" class="btn">Chatbot</a>
+                <a href="t2.html" class="btn">Personalized</a>
+               
+            </div>
+        </nav>
+            <button onclick="window.location.href='tp.html'" class="btn active">Go Back</button>&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <h1>Scheme Details</h1>
+<div class="con">
+    <div id="scheme-details" class="scheme-details"></div>
+</div>  
+    <script>
+
+        
+        // Function to get query parameters from URL
+        function getQueryParam(param) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
+        }
+
+        // Fetch the scheme data from JSON file
+        fetch('data.json')
+            .then(response => response.json())
+            .then(data => {
+                const schemeIndex = getQueryParam('schemeIndex');
+                const schemeData = data[schemeIndex];
+
+                if (!schemeData) {
+                    document.getElementById('scheme-details').innerHTML = 'Scheme details not found.';
+                    return;
+                }
+
+                // Render scheme details dynamically
+                let detailsHtml = `
+                    <h2 class="scheme-title">${schemeData.scheme_name}</h2>
+                    <p><strong>Launch Year:</strong> ${schemeData.launch_year}</p>
+                    <p class="scheme-description"><strong>Description:</strong> ${schemeData.description || 'No description available'}</p>
+                `;
+
+                if (schemeData.funding_details) {
+                    detailsHtml += `
+                        <h3 class="section-title">Funding Details</h3>
+                        <ul>
+                            <li><strong>General Category States:</strong> ${schemeData.funding_details.general_category_states || 'N/A'}</li>
+                            <li><strong>Special Category States:</strong> ${schemeData.funding_details.special_category_states || 'N/A'}</li>
+                            <li><strong>Union Territories:</strong> ${schemeData.funding_details.union_territories || 'N/A'}</li>
+                        </ul>
+                    `;
+                    detailsHtml += `<p><strong>Funding Process:</strong> ${schemeData.funding_process || 'N/A'}</p>`;
+                }
+
+                if (schemeData.objectives) {
+                    let objectivesHtml = '<h3 class="section-title">Objectives</h3><ul>';
+                    schemeData.objectives.forEach(obj => {
+                        objectivesHtml += `<li>${obj}</li>`;
+                    });
+                    objectivesHtml += '</ul>';
+                    detailsHtml += objectivesHtml;
+                }
+
+                if (schemeData.primary_components) {
+                    let componentsHtml = '<h3 class="section-title">Primary Components</h3><ul>';
+                    schemeData.primary_components.forEach(comp => {
+                        componentsHtml += `<li>${comp}</li>`;
+                    });
+                    componentsHtml += '</ul>';
+                    detailsHtml += componentsHtml;
+                }
+
+                if (schemeData.subsumed_components) {
+                    let subsumedHtml = '<h3 class="section-title">Subsumed Components</h3><ul>';
+                    schemeData.subsumed_components.forEach(comp => {
+                        subsumedHtml += `<li>${comp}</li>`;
+                    });
+                    subsumedHtml += '</ul>';
+                    detailsHtml += subsumedHtml;
+                }
+
+                if (schemeData.eligibility_criteria) {
+                    detailsHtml += `
+                        <h3 class="section-title">Eligibility Criteria</h3>
+                        <ul>
+                            <li><strong>State Institutions:</strong> ${schemeData.eligibility_criteria.state_institutions || 'N/A'}</li>
+                            <li><strong>Universities:</strong> ${schemeData.eligibility_criteria.universities || 'N/A'}</li>
+                            <li><strong>Colleges:</strong> ${schemeData.eligibility_criteria.colleges || 'N/A'}</li>
+                        </ul>
+                    `;
+                }
+
+                if (schemeData.implementation_agencies) {
+                    let agenciesHtml = '<h3 class="section-title">Implementation Agencies</h3><ul>';
+                    schemeData.implementation_agencies.forEach(agency => {
+                        agenciesHtml += `<li>${agency}</li>`;
+                    });
+                    agenciesHtml += '</ul>';
+                    detailsHtml += agenciesHtml;
+                }
+
+                document.getElementById('scheme-details').innerHTML = detailsHtml;
+            })
+            .catch(error => console.error('Error loading scheme data:', error));
+    </script>
+
+</body>
+</html>
